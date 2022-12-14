@@ -4,27 +4,43 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>semantic</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
+	 
 </script>
-<nav>
-	<a href="https://course.acciojob.com">Home</a>
-	<a href="https://www.w3schools.com/">About us</a>
-	<a href="https://www.w3schools.com/">Contact us</a>
-</nav>
-<h2>3 random videos</h2>
-<li>
-<ol>
-	<video style="width: 500px; height: 500px;" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls></video>
-<br>
-	<video style="width: 500px; height: 500px;"src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" controls></video>
-<br>
-	<video style="width: 500px; height: 500px;" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" controls></video>
-</ol>
-</li>
+
+	<div id="header">
+	<header>
+	<nav>
+		<ul>
+			<li> <a href="https://www.youtube.com">Home</a></li>
+			<li><a href="https://course.acciojob.com">About us</a></li>
+			<li><a href="https://www.fifa.com/">Contact us</a></li>
+		</ul>
+	</nav>
+</header>
+</div>
+
+
+
+
+	<h2>3 random videos</h2> 
+	<video class="random videos" controls autoplay>
+		<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video">
+	</video>
+	<video class="random videos" controls autoplay>
+		<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video">
+	</video>
+	<video class="random videos" controls autoplay>
+		<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="video">
+	</video>
+	
+
+	
 </body>
 
 </html>
